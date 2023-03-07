@@ -1,0 +1,106 @@
+/***** CSS GENERICO e HELPERS ****/
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.col10 { width: 10%; }
+.col20 { width: 20%; }
+.col25 { width: 25%; }
+.col30 { width: 30%; }
+.col40 { width: 40%; }
+.col50 { width: 50%; }
+.col60 { width: 60%; }
+.col70 { width: 70%; }
+.col80 { width: 80%; }
+.col90 { width: 90%; }
+.col100 { width: 100%; }
+
+.col {
+    padding: 10px;
+}
+
+.text-left { text-align: left; }
+.text-center { text-align: center; }
+.text-right { text-align: right; }
+
+.h100 {
+    height: 100%;
+}
+
+.flex {
+    display: flex;
+}
+
+.boxed {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.bg-arancio { background-color: goldenrod; }
+.bg-gray { background-color: lightgray; }
+.bg-blue { background-color: dodgerblue; }
+.bg-pink { background-color: pink; }
+.bg-darkblue { background-color: darkblue; }
+.bg-violet { background-color: violet; }
+.bg-green { background-color: green; }
+.bg-darkgray { background-color: #23272a; }
+.bg-aqua { background-color: aquamarine; }
+
+/***** CSS ELEMENTI PAGINA ****/
+
+header {
+    background-color: lightblue;
+}
+
+.navbar {
+    height: 80px;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 20px;
+}
+
+.hero {
+    height: 500px;
+    padding: 50px;
+    justify-content: center;
+}
+
+
+.row > div.boxed {
+    height: 500px;
+    padding: 50px 0 50px 0;
+}
+
+#rigaGrande { 
+    height: 1000px;
+    /* ID ha specificità maggiore del selettore .row > div.boxed */
+}
+
+footer {
+
+}
+
+.footerTop {
+    height: 500px;
+    padding-bottom: 50px;
+    padding-top: 10px;
+}
+.footerBottom {
+    height: 100px;
+    margin-top: 20px;
+    justify-content: space-between;
+    align-items: center;
+}
+.footerTopLeft {
+    background-color: lightcoral;
+}
+.footerTopRight {
+    background-color: lightseagreen;
+}
+
+.footerLateralColumn {
+    padding: 0.5em;
+}
